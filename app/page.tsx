@@ -44,7 +44,7 @@ export default function Home() {
           <SocialLink href="https://www.linkedin.com/in/majrou/" icon={<Linkedin size={24} />} label="LinkedIn" />
           <SocialLink href="https://github.com/ajrou4" icon={<Github size={24} />} label="GitHub" />
           <SocialLink href="mailto:mohamed1999ajro@gmail.com" icon={<Mail size={24} />} label="Email" />
-          <SocialLink href="https://drive.google.com/file/d/1XwlUwpdmR8XBhMm9DDiFjWf6E8cpMQpY/view?usp=sharing" icon={<FileText size={24} />} label="Resume" />
+          <SocialLink href="https://drive.google.com/file/d/1b1Z9yACfOmLBa1peToynodkQbup6dSKK/view?usp=sharing" icon={<FileText size={24} />} label="Resume" />
         </div>
       </main>
 
