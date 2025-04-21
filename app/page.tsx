@@ -255,7 +255,7 @@ export default function Home() {
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-gray-500" />
                     <a href="mailto:mohamed1999ajro@gmail.com" className="text-primary">
-                      Email
+                      mohamed1999ajro@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center gap-3">
@@ -266,7 +266,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="text-primary"
                     >
-                      Linkedin
+                      linkedin.com/in/majrou
                     </a>
                   </div>
                   <div className="flex items-center gap-3">
@@ -277,7 +277,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="text-primary"
                     >
-                      Github
+                      github.com/ajrou4
                     </a>
                   </div>
                   <div className="flex items-center gap-3">
