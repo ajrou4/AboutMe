@@ -44,7 +44,7 @@ export default function Home() {
           <SocialLink href="https://www.linkedin.com/in/majrou/" icon={<Linkedin size={24} />} label="LinkedIn" />
           <SocialLink href="https://github.com/ajrou4" icon={<Github size={24} />} label="GitHub" />
           <SocialLink href="mailto:mohamed1999ajro@gmail.com" icon={<Mail size={24} />} label="Email" />
-          <SocialLink href="https://drive.google.com/file/d/1vtSo2iMg2fp3gLSfDE_5f5ibn_ZU3SEs/view?usp=sharing" icon={<FileText size={24} />} label="Resume"  />
+          <SocialLink href="https://drive.google.com/file/d/1vtSo2iMg2fp3gLSfDE_5f5ibn_ZU3SEs/view?usp=sharing"icon={<FileText size={24} />} label="Resume"  />
         </div>
       </main>
 
@@ -272,23 +272,23 @@ export default function Home() {
                   <div className="flex items-center gap-3">
                     <Github className="h-5 w-5 text-gray-500" />
                     <a
+                      href="https://github.com/ajrou4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary"
+                    >
+                      github.com/ajrou4
+                    </a>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <ExternalLink className="h-5 w-5 text-gray-500" />
+                    <a
                       href="https://drive.google.com/file/d/1vtSo2iMg2fp3gLSfDE_5f5ibn_ZU3SEs/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary"
                     >
                       Resume
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <ExternalLink className="h-5 w-5 text-gray-500" />
-                    <a
-                      href="https://ajrou4.github.io/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary"
-                    >
-                      ajrou4.github.io
                     </a>
                   </div>
                 </div>
