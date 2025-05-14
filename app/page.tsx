@@ -126,6 +126,8 @@ export default function Home() {
                 "HTML/CSS",
                 "Git/GitHub",
                 "Docker",
+                "Docker Swarm",
+                "K8S",
                 "Python",
                 "JavaScript",
                 "System administration",
@@ -167,7 +169,8 @@ export default function Home() {
                 "Deployed with Docker & Nginx + SSL (HTTPS)",
               ]}
               links={[
-                { url: "https://github.com/ajrou4/front", label: "Frontend Repo" },
+                
+                { url: "https://github.com/ajrou4/ft_transcendence", label: "Project Repo" },
                 { url: "https://github.com/ajrou4/game-js", label: "Game Repo" },
               ]}
             />
