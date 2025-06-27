@@ -180,14 +180,16 @@ export default function Home() {
               description="A modern, responsive website for a barbershop, designed to showcase services, pricing, and booking options."
               techStack={["HTML5", "CSS3 (Flexbox, Grid, Animations)", "JavaScript (for interactivity)"]}
               highlights={[
-               "Fully Responsive – Works on mobile, tablet, and desktop."
-               "Service & Pricing Display – Highlights haircuts, shaves, and grooming services."
-               "Booking Functionality – Allows users to book appointments (may require backend integration)."
-               "Modern UI/UX – Clean design with smooth animations."
-               "Gallery Section – Showcases the barbershop's work."
+                "Fully Responsive – Works on mobile, tablet, and desktop.",
+                "Service & Pricing Display – Highlights haircuts, shaves, and grooming services.",
+                "Booking Functionality – Allows users to book appointments (may require backend integration).",
+                "Modern UI/UX – Clean design with smooth animations.",
+                "Gallery Section – Showcases the barbershop's work."
               ]}
-              links={[{ url: "https://github.com/ajrou4/barbershop-website", label: "GitHub Repo" }]}
-              links={[{ url: "https://ajrou4.github.io/barbershop-website/", label: "Live Demo" }]}
+              links={[
+                { url: "https://github.com/ajrou4/barbershop-website", label: "GitHub Repo" },
+                { url: "https://ajrou4.github.io/barbershop-website/", label: "Live Demo" }
+              ]}
             />
             <ProjectCard
               title="Inception Docker Infrastructure"
