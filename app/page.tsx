@@ -127,7 +127,6 @@ export default function Home() {
                 "Git/GitHub",
                 "Docker",
                 "Docker Swarm",
-                "K8S",
                 "Python",
                 "JavaScript",
                 "System administration",
@@ -142,7 +141,7 @@ export default function Home() {
                 "React",
                 "RESTful APIs",
                 "Nginx",
-                "PM2",
+                "n8n"
               ].map((skill) => (
                 <Badge key={skill} className="py-2 px-4 text-center">
                   {skill}
