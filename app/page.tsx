@@ -245,7 +245,18 @@ export default function Home() {
               highlights={["Created a command-line interface with a prompt", "Implemented command history"]}
               links={[{ url: "https://github.com/ajrou4/Minishell", label: "GitHub Repo" }]}
             />
-
+            <ProjectCard
+                        title="Portfolio Website"
+                        description="Modern, responsive portfolio website built from scratch to showcase technical skills and professional projects with optimized performance."
+                        techStack={["Next.js", "React", "Tailwind CSS", "Vercel"]}
+                        highlights={[
+                          "Implemented server-side rendering for fast page loads and SEO optimization",
+                          "Built responsive mobile-first design with Tailwind CSS utility classes",
+                          "Set up automated CI/CD pipeline with Vercel for seamless deployments",
+                          "Achieved 95+ Lighthouse scores through performance optimizations",
+                        ]}
+                        links={[{ url: "https://majrou.vercel.app", label: "Live Site" }]}
+          />
             <ProjectCard
               title="ft_IRC - IRC Server Development"
               description="Designed and implemented an IRC server in C++98, capable of handling multiple clients simultaneously."
