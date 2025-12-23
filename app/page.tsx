@@ -29,7 +29,7 @@ export default function Home() {
 
         {/* Title */}
         <h2 className="text-xl font-medium mb-6 text-gray-800 dark:text-gray-200">
-          Backend Developer | DevOps Enthusiast
+          Software Developer | DevOps Enthusiast
         </h2>
 
         {/* Bio */}
