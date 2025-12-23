@@ -34,9 +34,9 @@ export default function Home() {
 
         {/* Bio */}
         <p className="text-gray-700 dark:text-gray-300 mb-10 max-w-lg mx-auto leading-relaxed">
-          I code, and I build things. Passionate about backend development and DevOps. I have a strong foundation in
-          building scalable web applications with hands-on experience in Docker and system administration. I thrive on
-          solving challenging problems while continuously expanding my knowledge to create robust and efficient systems.
+          Software Developer proficient in C/C++, JavaScript, and Python. I build scalable applications using React,
+          Next.js, Node.js, and Django, with a focus on automation and orchestration through GitHub Actions, Docker,
+          Kubernetes, and n8n.
         </p>
 
         {/* Social Links */}
@@ -44,7 +44,7 @@ export default function Home() {
           <SocialLink href="https://www.linkedin.com/in/majrou/" icon={<Linkedin size={24} />} label="LinkedIn" />
           <SocialLink href="https://github.com/ajrou4" icon={<Github size={24} />} label="GitHub" />
           <SocialLink href="mailto:mohamed1999ajro@gmail.com" icon={<Mail size={24} />} label="Email" />
-          <SocialLink href="https://drive.google.com/file/d/1_rpk5DJ68m87wESf88S96_q5YOYtEyLs/view?usp=sharing"icon={<FileText size={24} />} label="Resume"  />
+          <SocialLink href="https://drive.google.com/file/d/1_rpk5DJ68m87wESf88S96_q5YOYtEyLs/view?usp=sharing" icon={<FileText size={24} />} label="Resume" />
         </div>
       </main>
 
@@ -54,7 +54,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg mb-6">
-              As a backend developer with a strong foundation in building scalable web applications, I am deeply
+              As a software developer with a strong foundation in building scalable web applications, I am deeply
               passionate about DevOps and dedicated to creating automated and efficient infrastructure solutions. I have
               hands-on experience with Docker and thrive on solving challenging problems while continuously expanding my
               knowledge in system administration, virtualization, and web development.
@@ -168,13 +168,13 @@ export default function Home() {
                 "Deployed with Docker & Nginx + SSL (HTTPS)",
               ]}
               links={[
-                
+
                 { url: "https://github.com/ajrou4/ft_transcendence", label: "Project Repo" },
                 { url: "https://github.com/ajrou4/game-js", label: "Game Repo" },
               ]}
             />
 
-              <ProjectCard
+            <ProjectCard
               title="Barbershop Website"
               description="A modern, responsive website for a barbershop, designed to showcase services, pricing, and booking options."
               techStack={["HTML5", "CSS3 (Flexbox, Grid, Animations)", "JavaScript (for interactivity)"]}
@@ -246,17 +246,17 @@ export default function Home() {
               links={[{ url: "https://github.com/ajrou4/Minishell", label: "GitHub Repo" }]}
             />
             <ProjectCard
-                        title="Portfolio Website"
-                        description="Modern, responsive portfolio website built from scratch to showcase technical skills and professional projects with optimized performance."
-                        techStack={["Next.js", "React", "Tailwind CSS", "Vercel"]}
-                        highlights={[
-                          "Implemented server-side rendering for fast page loads and SEO optimization",
-                          "Built responsive mobile-first design with Tailwind CSS utility classes",
-                          "Set up automated CI/CD pipeline with Vercel for seamless deployments",
-                          "Achieved 95+ Lighthouse scores through performance optimizations",
-                        ]}
-                        links={[{ url: "https://majrou.vercel.app", label: "Live Site" }]}
-          />
+              title="Portfolio Website"
+              description="Modern, responsive portfolio website built from scratch to showcase technical skills and professional projects with optimized performance."
+              techStack={["Next.js", "React", "Tailwind CSS", "Vercel"]}
+              highlights={[
+                "Implemented server-side rendering for fast page loads and SEO optimization",
+                "Built responsive mobile-first design with Tailwind CSS utility classes",
+                "Set up automated CI/CD pipeline with Vercel for seamless deployments",
+                "Achieved 95+ Lighthouse scores through performance optimizations",
+              ]}
+              links={[{ url: "https://majrou.vercel.app", label: "Live Site" }]}
+            />
             <ProjectCard
               title="ft_IRC - IRC Server Development"
               description="Designed and implemented an IRC server in C++98, capable of handling multiple clients simultaneously."
@@ -268,6 +268,35 @@ export default function Home() {
                 "Added operator-specific commands",
               ]}
               links={[{ url: "https://github.com/ajrou4/IRC-AK-MSN-", label: "GitHub Repo" }]}
+            />
+
+            <ProjectCard
+              title="Internship Dashboard"
+              description="A modern, full-stack dashboard application built with Next.js 16, featuring user authentication and daily usage limits for contact viewing."
+              techStack={["Next.js", "TypeScript", "Clerk", "PostgreSQL", "Prisma", "Tailwind CSS", "Vercel"]}
+              highlights={[
+                "Secure authentication powered by Clerk",
+                "Agencies and Contacts database with daily usage tracking",
+                "Server-side rendering with Next.js App Router",
+                "Automatic daily limit reset at midnight",
+              ]}
+              links={[
+                { url: "https://github.com/ajrou4/Dashboard", label: "GitHub Repo" },
+                { url: "https://dashboard-intern.vercel.app", label: "Live Demo" },
+              ]}
+            />
+
+            <ProjectCard
+              title="AI-Powered German Learning Platform"
+              description="A comprehensive full-stack web application for learning German, powered by AI. Features interactive lessons, AI chatbot tutor, real-time translation, and progress tracking."
+              techStack={["Django", "DRF", "React", "PostgreSQL", "Redis", "Google Gemini API", "Docker", "TailwindCSS"]}
+              highlights={[
+                "Structured courses organized by CEFR levels (A1-C2)",
+                "AI Translator with German ↔ English/Arabic support",
+                "AI Chatbot Tutor with Beginner, Grammar, and Conversation modes",
+                "Gamification with achievements, badges, and learning streaks",
+              ]}
+              links={[{ url: "https://github.com/ajrou4/German-learning-platform", label: "GitHub Repo" }]}
             />
           </div>
         </div>
